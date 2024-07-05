@@ -1,0 +1,106 @@
+body {
+    background-color:  #212529;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    width:80%;
+    margin:auto;
+}
+
+.meeting-title{
+    margin-top: 10%;
+}
+
+.meeting-title span {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+  }
+
+#meeting-title {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#meeting-subtitle{
+    font-size: 20px;
+}
+
+.start-btn {
+    width:30%;
+    height:5vh;
+    margin-top: 10%;
+    background-color:#0d6efd;
+    border:none;
+    border-radius: 4px;
+    color:white;
+    font-size: 18px;;
+}
+
+.meeting-time {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 5%;
+   font-size: 25px;
+}
+
+.meeting-content {
+    margin-top:5%;
+}
+
+.add-btn {
+    margin-top :5%;
+    font-size: 80px;
+    border: none;
+    background-color: inherit;
+    color: #363738;
+}
+
+.topic-row {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    border:solid;
+    border-radius: 4px;
+    border-width: 1px;
+    padding:10px
+}
+
+ input {
+    background-color:inherit;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#topic-title {
+    width:30%;
+}
+
+
+#topic-duration {
+    width:8%;
+}
+
+#done-btn {
+    background-color: inherit;
+    width:8%;
+    border:solid;
+    border-color:green;
+    color:green;
+    border-radius: 4px;
+}
+
+#delete-btn {
+    background-color: inherit;
+    width:8%;
+    border:solid;
+    border-color:white;
+    border-width: 1px;
+    color:white;
+    border-radius: 4px;
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MeetingPlanner</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="meeting-title">
+        <span id="meeting-title">Time Tap</span>
+        <span id="meeting-subtitle">Design your meetings</span>
+      </div>
+      <div>
+        <button class="start-btn" onclick="startMeeting()">Start Meeting</button>
+      </div>
+      <div class="meeting-time">
+        <span id = "meeting-time">Total Meeting Time: 50 mins</span>
+        <span id="current-time"></span>
+      </div>
+      <div class="meeting-content" id="meeting-content"></div>
+      <div>
+        <button class="add-btn" onclick="addNewTopic()">+</button>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
